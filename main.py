@@ -7,10 +7,10 @@ user_input = input("\tEmail Address: ")
 if "@" in user_input:
     print("Your Have Valid Email  address")
     b = (user_input.index("@"))
-    b = int(b)
-    c = user_input[0:b]
-    d = user_input[b+1:]
-    print("This is Email Username: ", c)
-    print("This is Email Domain: ", d)
+    x = int(b)
+    username = user_input[0:x]
+    domain = user_input[x+1:]
+    print("This is Email Username: ", username)
+    print("This is Email Domain: ", domain)
 else:
     print("Invalid Email Address")
