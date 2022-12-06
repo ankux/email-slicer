@@ -3,7 +3,7 @@ print("Welcome to Email Slicer! 😀")
 print("Please Enter Your Email Address Below")
 
 # Here the user will be prompted to enter their email address.
-user_input = input("\tEmail Address: ")
+user_input = input("\tEmail Address: ").strip()
 
 # Here is the email address slicing logic comes in if statement.
 if "@" in user_input:
