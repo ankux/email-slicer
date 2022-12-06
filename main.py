@@ -10,10 +10,10 @@ if "@" in user_input:
     print("Your Have Valid Email  address")
     b = (user_input.index("@"))
     x = int(b)
-    username = user_input[0:x]
-    domain = user_input[x+1:]
-    print("This is Email Username: ", username)
-    print("This is Email Domain: ", domain)
+    user_name = user_input[0:x]
+    domain_name = user_input[x+1:]
+    print("This is Email Username: ", user_name)
+    print("This is Email Domain: ", domain_name)
 
 else:
     print("Invalid Email Address")
