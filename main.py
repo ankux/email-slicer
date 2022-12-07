@@ -7,7 +7,7 @@ user_input = input("\tEmail Address: ").strip()
 
 # Here is the email address slicing logic comes in if statement.
 if "@" in user_input:
-    print("✅ Your have an valid Email address")
+    print("✅ You have an valid Email address")
     b = (user_input.index("@"))
     x = int(b)
     user_name = user_input[0:x]
